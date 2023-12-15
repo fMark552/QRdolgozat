@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/idText"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="ID"
+        android:visibility="gone"
+        />
+    <EditText
+        android:id="@+id/nevText"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="Név"
+      />
+    <EditText
+        android:id="@+id/jegyText"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="Jegy"
+       />
+    <Button
+        android:id="@+id/modositButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Szerkesztés"
+        android:textSize="25sp" />
+</LinearLayout>
